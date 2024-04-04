@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+    
+
+}
+
+body {
+    font-family:'Times New Roman', Times, serif; 
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.container{
+    display: flexbox;
+    justify-content: center;
+    width: 600px;
+    height: 900px;
+    margin: 100px;
+    padding: 20px;
+    text-align: center;
+    color:rgb(15, 15, 15);
+    border-radius: 60px;
+    border-style: groove;
+    border-width: 40px;
+    border-color: rgb(36, 211, 91);
+    margin: 0 auto;
+    flex-wrap: nowrap;
+}
+
+h1{
+    margin: 25px;
+}
+
+
+#calculator {
+    margin-bottom:  20px; 
+
+}
+
+input[type="number"]{
+    padding: 10px;
+    margin-right: 10px;
+    width: 150px;
+    font-size: 22px;
+    border: 3px solid black;
+}
+button{
+    padding: 10px 20px;
+    background-color: black;
+    color:white;
+    border: none;
+    font-size: 25px;
+
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 8px;
+    border: 3px solid black;
+    font-size: 23px;
+
+}
+
+/*celdas*/
+th {
+    background-color: black;
+    color: white;
+
+}
+
+tbody tr:nth-child(even){/*resaltar celdas*/
+    background-color: white;
+}
+
